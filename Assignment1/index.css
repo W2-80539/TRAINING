@@ -1,0 +1,360 @@
+.menustyle{
+        width: 14px;
+        height: 2px;
+        background-color: black;
+        margin: 1px 0;
+}
+
+div#menu{
+    margin-left: 50%;
+   display: grid;
+   width: fit-content;
+   margin-bottom: 5px;
+}
+
+div#menu:hover{
+   background-color: grey;
+}
+
+.faceimg{
+  width: 300px;
+  margin-left: 25%;
+  float: left;
+}
+
+.faceimg h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.facediv{
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    height: 90%;
+}
+
+.circleimg{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(20, 154, 145, 0.968);
+    float: left;
+    border-radius: 200px;
+    margin-left: 10%;
+    z-index: 1;
+    margin-top: 1%;
+}
+
+.des{
+    height:auto ;
+    width: 100%;
+    align-content: baseline;
+    display: inline flex;
+}
+
+.des div{
+     height: fit-content;
+     width: 25%;
+     background-color: white;
+     margin-left: 3%;
+     margin-top: 2%;
+}
+
+.block i{
+   font-size: xxx-large;
+   background-color: rgb(193, 150, 226);
+   color: white;
+   margin-left: 2%;
+   margin-top: 6%;
+
+}
+.block{
+    padding: 2%;
+}
+
+.block p{
+    font-size: small;
+}
+
+.serviceblock div{
+    height: fit-content;
+  width: 42%;
+  border-left-width: 15px;
+  background-color: rgb(240, 240, 240);
+  border-left-color: rgba(20, 154, 145, 0.968);
+  border-left-style: solid;
+  margin-left: 3%;
+  padding-left: 2%;
+
+}
+
+.ignore-serviceblock{
+    width: 100% !important;
+    border: none !important;
+    height: 100% !important;
+}
+
+.ignore-serviceblock p{
+    margin-right: 2%;
+   
+}
+
+.ignore-heading {
+    font-weight: lighter;
+    margin-top: -5px;
+
+}
+
+
+.serviceblock{
+    display:inline-flex;
+    width: 100%;
+}
+
+.serviceblock p{
+    font-size: small;
+}
+
+.quote{
+    background-color:rgb(240, 240, 240) ;
+    text-align: center;
+    padding: 2%;
+}
+
+.quote p{
+    font-size: small;
+    word-spacing: 3px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.quote button{
+    border: none;
+    border-radius: 17px;
+    padding: 10px;
+
+}
+
+.serviceblock img{
+    width: 15%;
+    display: inline;
+    height: 15%;
+    margin-top: 4%;
+    border-radius: 50%;
+}
+
+.maincont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.contone{
+    width: 25%;
+    margin-right: 2%;
+}
+
+.contone div{
+    background-color: rgb(193, 150, 226);
+    width: 100%;color: white;
+    height: 60%;
+    align-content: start;
+
+}
+
+.contone img{
+    width: 60%;
+    vertical-align: top;
+    margin-left: 40%;
+    margin-bottom: 8%;
+}
+
+.conttwo{
+    width: 25%;
+}
+
+.imagetwo{
+    width: 100%;
+    height: 60%;
+    vertical-align: top;
+    margin-bottom: 8%;
+
+}
+.container{
+    padding: 1%;
+    padding-left: 6%;
+    background-color: rgba(20, 154, 145, 0.968);
+    width: 100%;
+}
+
+.container p{
+    font-size: small;
+}
+
+.containerone{
+    width:100% ;
+    padding-left: 2%;
+    grid-column-end: 3;
+    grid-column-start: 1;
+}
+.containerone h2{
+    letter-spacing: 1px;
+}
+.containerone p{
+    font-size: small;
+}
+
+.gridcontainer{
+    display: grid;
+    width: fit-content;
+  gap: 5%;
+  grid-template-columns: 35% 35% 23%;
+  background-color: rgb(240, 240, 240);
+  padding: 4%;
+}
+
+.containericon{
+    width: 100%;
+    height: 100%;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-row-start: 1;
+    align-content: center;
+    text-align: center;
+}
+.containericon i{
+    font-size: x-large;
+   background-color: rgb(193, 150, 226);
+   color: white;
+   height: fit-content;
+   padding: 3%;
+}
+
+.containericon p{
+    font-size: small;
+}
+
+.slider-container{
+    height: 40%;
+    width: fit-content;
+    display: inline-flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    margin-left: 2%;
+    margin-right: 4%;
+    
+    
+}
+
+.slider-container img{
+    width: 47%;
+}
+
+.slider-icons i{
+    background-color: white;
+    opacity: 60%;
+    color: rgb(5, 5, 5);
+    font-size: xx-large;
+    
+    text-align-last:center ;
+    border-radius: 40px;
+    width: 30px;
+    
+    
+}
+
+.slider-icons{
+    width: 90%;
+   text-align-last: justify;
+   position: absolute;
+   z-index: 1;
+}
+
+.slider-slides{
+    display: inline-flex;
+    gap: 1%;
+}
+
+/* -------------- */
+
+.anscontainer{
+   padding: 2%;
+   padding-right: 4%;
+    display: inline-flex;
+}
+
+.ans-subcontainer{
+    width: 50%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:rgb(240, 240, 240); 
+   
+}
+
+.ans-subcontainer p{
+    padding: 1%;
+    font-size: small;
+    color: rgba(20, 154, 145, 0.968);
+}
+
+.sponsor-container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+    padding: 2%;
+    
+}
+.sponsor-container img{
+    background-color: white;
+    width: 10%;
+    height: 10%;
+}
+
+.green-container{
+    background-color:rgba(20, 154, 145, 0.968) ;
+    padding: 4% 2% 4% 3%;
+    gap: 2%;
+    display: inline-flex;
+    place-content: space-evenly;
+}
+
+.green-subcontainer{
+    color: white;
+    width: 45%;
+    letter-spacing: 1px;
+    
+}
+.textbox{
+  
+    padding: 5%;
+    background-color: white;
+    width: 80%;
+    color: black;
+}
+
+.textbox input,textarea{
+    border: none;
+    width: 96%;
+    background-color: rgb(240, 240, 240);
+    padding: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.textbox button{
+    color: white;
+    background-color:rgb(193, 150, 226) ;
+    border: none;
+    padding: 2% 5% 2% 5%;
+}
+
+.lastsection{
+    background-color: rgb(42, 38, 38);
+    color: white;
+    padding: 2% ;
+    text-align: center;
+
+}
