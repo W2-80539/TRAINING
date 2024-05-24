@@ -1,0 +1,13 @@
+.validate {
+    color: red;
+    min-height: fit-content;
+    padding: 0px;
+    margin: 0px;
+    font-size: small;
+    font: 13px Arial, Helvetica, sans-serif;
+
+}
+
+.form_container_block ul li.fileds {
+    margin-bottom: 20px !important;
+}
